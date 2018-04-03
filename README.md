@@ -5,11 +5,16 @@ This application is apart of the following medium article: [https://medium.com/p
 
 ## Usage
 ```
-$pub get
-$cd web
-$yarn install
-$cd ..
-$pub serve
+$ pub get; cd web; yarn install; cd ..; pub serve
+```
+or
+```
+$ pub get
+$ cd web
+$ yarn install
+$ cd ..
+$ pub serve
+
 ```
 
 Then go to [http://localhost:8080](http://localhost:8080)
