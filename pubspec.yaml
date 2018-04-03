@@ -1,0 +1,27 @@
+name: dartReact
+description: Experimental Dart with React application.
+version: 0.0.1
+#homepage: https://www.giovannilenguito.co.uk
+#author: Giovanni Lenguito <giovanni16.gl@gmail.com>
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dev_dependencies:
+  browser: ^0.10.0
+  dart_to_js_script_rewriter: ^1.0.1
+  over_react: ^1.22.0
+
+dependecies:
+  js: "^0.6.1"
+
+transformers:
+- over_react
+- $dart2js
+- dart_to_js_script_rewriter
+
+# Uncomment the following in sdk 1.24+ to make pub serve
+# use dartdevc (webdev.dartlang.org/tools/dartdevc).
+#web:
+#  compiler:
+#    debug: dartdevc

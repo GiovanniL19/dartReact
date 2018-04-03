@@ -1,0 +1,4 @@
+node_modules/
+.pub/
+pubspec.lock
+web/yarn.lock
